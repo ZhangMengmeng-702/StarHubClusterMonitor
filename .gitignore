@@ -1,0 +1,46 @@
+# 依赖
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 构建产物
+dist/
+build/
+
+# 缓存
+.npmcache/
+.vite/
+.cache/
+
+# 日志
+*.log
+dev.log
+backend.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 环境变量（含密码）
+.env
+.env.local
+.env.*.local
+
+# Docker
+docker-compose.override.yml
+
+# 数据文件（过大或敏感）
+src/data/dashboard_data.json
+Project3/*.dat
+
+# 临时文件
+*.tmp
+*.temp
