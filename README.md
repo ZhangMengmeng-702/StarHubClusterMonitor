@@ -2,6 +2,12 @@
 
 基于 **Vue3 + Vite + DataV + ECharts** 的服务器集群监控数据大屏，数据来源于 `Project3` 中的 4 张 `.dat` 表（星型模型），视觉风格为 **星海深蓝·北斗金**。
 
+## 预览
+
+> 将预览图放到项目根目录的 `preview.png`，或替换下方链接为你的图片地址。
+
+![StarHubClusterMonitor 预览](preview.png)
+
 ## 一、4 张表的关联关系（星型模型）
 
 | 表                | 类型   | 主键/外键                                          | 说明                                                                   |
